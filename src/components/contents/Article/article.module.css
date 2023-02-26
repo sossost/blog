@@ -1,0 +1,61 @@
+.content {
+  width: inherit;
+  overflow: auto;
+}
+
+.title_area {
+  display: block;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  word-break: keep-all;
+}
+
+.title_area h3 {
+  margin: 0;
+  padding-bottom: 16px;
+  font-size: 24px;
+  color: rgb(77, 77, 79);
+}
+
+.title_area span {
+  margin: 0;
+  font-size: 14px;
+  color: rgb(165, 165, 167);
+}
+
+.category {
+  color: 155, 155, 157;
+}
+
+.category:hover {
+  color: rgb(165, 165, 165);
+}
+
+.article_area p img {
+  object-fit: scale-down;
+}
+
+.info {
+  display: block;
+}
+
+.post_btn_area {
+  display: block;
+  padding: 35px 0;
+  float: right;
+}
+
+.post_btn {
+  width: 120px;
+  height: 30px;
+  border: 1px solid grey;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: 300;
+  align-items: center;
+  text-align: center;
+}
+
+.post_btn span {
+  margin: 0 2px;
+}

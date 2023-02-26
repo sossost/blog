@@ -1,0 +1,28 @@
+.panel {
+  width: 150px;
+  background-color: white;
+  border: 1px solid #ccced1;
+  box-shadow: 1px grey;
+  border-radius: 3px;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  justify-content: center;
+}
+
+.list {
+  width: 150px;
+  height: 30px;
+  display: block;
+  z-index: 2;
+  align-items: center;
+  display: flex;
+  padding-left: 16px;
+  font-size: 13px;
+  color: rgb(99, 99, 99);
+}
+
+.list:hover {
+  background-color: rgb(235, 235, 235);
+  cursor: pointer;
+}

@@ -1,0 +1,24 @@
+.title {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.list {
+  padding: 14px 0 15px 0;
+  border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.top {
+  padding-bottom: 6px;
+}
+
+.username {
+  padding-right: 6px;
+  font-size: 16px;
+}
+
+.date {
+  font-size: 13px;
+  color: rgb(165, 165, 165);
+}

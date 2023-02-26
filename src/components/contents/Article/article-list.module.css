@@ -1,0 +1,25 @@
+.another_category_list {
+  width: inherit;
+  margin: 50px 0;
+  display: block;
+}
+
+.another_category_list h3 {
+  color: rgb(100, 100, 100);
+  margin: 0;
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.another_category_list ul {
+  padding-top: 10px;
+}
+
+.another_category_list ul li {
+  padding-bottom: 2px;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(100, 100, 100);
+  font-size: 15px;
+}

@@ -1,0 +1,32 @@
+.list {
+}
+
+.content {
+  border-bottom: 1px solid rgb(199, 199, 199);
+  padding: 20px 0;
+}
+
+.content strong {
+  color: rgb(77, 77, 79);
+  padding-bottom: 8px;
+  display: block;
+  font-size: 18 px;
+}
+
+.content p {
+  font-size: 14px;
+  line-height: 22px;
+  color: rgb(100, 100, 100);
+  max-width: calc(100% - 38px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.content_bottom {
+  padding-top: 8px;
+  font-size: 14px;
+  color: rgb(165, 165, 165);
+}

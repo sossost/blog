@@ -1,0 +1,49 @@
+.comment {
+  padding-top: 20px;
+}
+
+.insertForm {
+  width: 100%;
+  height: 80px;
+  resize: none;
+  border: 1px solid #ccced1;
+  border-radius: 3px;
+  padding: 9.6px;
+  font-size: 14px;
+  font-weight: 400;
+  justify-content: center;
+}
+
+.insertForm_disabled {
+  width: 100%;
+  height: 80px;
+  resize: none;
+  border: 1px solid #ccced1;
+  border-radius: 3px;
+  padding: 9.6px;
+  font-size: 14px;
+  font-weight: 400;
+  justify-content: center;
+}
+
+.insertForm_disabled:hover {
+  cursor: pointer;
+}
+
+.insert {
+  display: flex;
+  justify-content: right;
+  margin-top: 8px;
+}
+
+.insertBtn {
+  margin: 0 4px;
+  width: 80px;
+  height: 40px;
+
+  border: 1px solid rgb(70, 70, 70);
+  border-radius: 20px;
+  background-color: rgb(70, 70, 70);
+  color: white;
+  cursor: pointer;
+}

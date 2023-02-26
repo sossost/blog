@@ -1,0 +1,41 @@
+.list {
+  height: 60px;
+  font-size: 18px;
+  border-bottom: 1px solid rgb(200, 200, 200);
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list span {
+  border: 1px solid transparent;
+  padding: 5px;
+}
+
+.input {
+  height: 40px;
+  width: 400px;
+  font-size: 18px;
+  color: rgb(77, 77, 79);
+  padding: 5px;
+  border: 1px solid rgb(200, 200, 200);
+}
+
+.input:focus {
+  outline: none;
+}
+
+.btn {
+  display: flex;
+}
+
+.btn button {
+  width: 60px;
+  height: 40px;
+  background-color: transparent;
+  margin-left: 10px;
+  border: 1px solid rgb(200, 200, 200);
+  font-size: 14px;
+  cursor: pointer;
+  color: rgb(77, 77, 79);
+}
